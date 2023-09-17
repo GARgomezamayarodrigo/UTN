@@ -1,5 +1,14 @@
-Ejemplo.css
 h1{
     color:red;
     background-color: black;
+}
+h2{
+    font-size:large;
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    font-size: larger;
 }
