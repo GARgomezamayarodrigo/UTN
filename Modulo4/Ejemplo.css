@@ -12,3 +12,8 @@ body{
 body{
     font-size: larger;
 }
+h2{
+    box-shadow: 0 0 5px #888 ;}
+body{
+    font-family: 'Croissant One', cursive;
+}
