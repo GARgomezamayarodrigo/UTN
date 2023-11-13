@@ -1,0 +1,22 @@
+.cuadrado {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#cuadrado1 {
+    background-color: #FF5733;
+    /* Color naranja */
+}
+
+#cuadrado2 {
+    background-color: #33FF57;
+    /* Color verde */
+}
+
+#cuadrado3 {
+    background-color: #5733FF;
+    /* Color morado */
+}

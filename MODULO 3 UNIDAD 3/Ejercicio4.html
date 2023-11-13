@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de Caracteres</title>
+    <style>
+        #contador {
+            color: #888;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <textarea id="miTexto" rows="4" cols="50" oninput="actualizarContador()"></textarea>
+    <p id="contador">0 caracteres</p>
+
+    <script>
+        function actualizarContador() {
+            var textarea = document.getElementById("miTexto");
+            var contador = document.getElementById("contador");
+            var caracteres = textarea.value.length;
+            contador.textContent = caracteres + " caracteres";
+        }
+    </script>
+
+</body>
+
+</html>
